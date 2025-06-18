@@ -1,2 +1,2 @@
 # Credit-Card-Fraud-Detection
-This project is about Credit Card Fraud Detection using machine learning in python.
+Machine Learning model using Python to detect credit card fraud..
