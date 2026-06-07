@@ -2,7 +2,7 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kashish1418/Credit-Card-Fraud-Detection/blob/main/Credit_Card_Fraud_Detection.ipynb)
 
-Machine Learning project focused on detecting fraudulent credit card transactions using SMOTE and XGBoost on highly imbalanced financial transaction data.
+ML model achieving 95% accuracy and best-in-class F1-score on 284,807 credit card transactions (0.17% fraud rate). Built with XGBoost + SMOTE on highly imbalanced financial data.
 
 ---
 
@@ -19,6 +19,12 @@ The goal of this project is to build an efficient fraud detection system capable
 * Handled highly imbalanced transaction data using **SMOTE**
 * Applied **feature scaling** using StandardScaler
 * Compared multiple machine learning models
+  
+  * Logistic Regression (baseline)
+  * Random Forest
+  * XGBoost ✓ (selected — highest F1-score)
+  * Trained on 284,807 real transactions from Kaggle (ULB)
+  
 * Evaluated models using:
 
   * Accuracy
