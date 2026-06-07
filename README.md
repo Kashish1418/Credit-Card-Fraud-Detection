@@ -168,10 +168,13 @@ jupyter notebook Credit_Card_Fraud_Detection.ipynb
 Credit-Card-Fraud-Detection/
 │
 ├── images/
-│   ├── confusion_matrix.png
+│   ├── class_distribution
+│     ├── after_under_sampling.png
+│     ├── after_SMOTE.png
+|   ├── confusion_matrix.png
 │   ├── roc_curve.png
-│   ├── feature_importance.png
-|   
+│   ├── precision_recall_curve.png
+|   ├── importance_features.png
 │
 ├── Credit_Card_Fraud_Detection.ipynb
 ├── fraud_detection_model.pkl
